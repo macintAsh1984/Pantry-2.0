@@ -1,71 +1,190 @@
-<html> 
-  <body> 
-    <h2>Frequently Asked Questions</h2>
-  </body>
-	<details>
-		<summary>When Is The Pantry Open?</summary>
-		<p>
-            <b>Winter Quarter 2023 Hours:</b> <br>
-            <b>Monday, Wednesday, Friday:</b> 10:30AM - 4:00PM<br>
-            <b>Tuesday, Thursday:</b> 9:30AM - 4:00PM<br>
-            <b>Saturday, Sunday:</b> 12:00PM - 2:00PM (Online Orders Only)
-        </p>
-	</details>
-    <br>
-    <details>
-		<summary>Where is the Pantry Located?</summary>
-		<p>
-            <b>You can find the Pantry at:</b><br>
-            Memorial Union 167<br>
-            One Shields Ave.<br>
-            Davis, CA 95616
-        </p>
-	</details>
-    <br>
-	<details>
-		<summary>What Do You Have In Stock?</summary>
-		<p>
-            To see what is in stock, you can check out our walk-in 
-            menu at the following link:
-        </p>
-        <a href="https://abrupt-nightshade-be6.notion.site/Walk-In-Menu-443afebccb974648b313b71a9815001e" target=”_blank” >Walk-In Menu</a>
-	</details>
-    <br>
-	<details>
-		<summary>How Do I Make An Online Order?</summary>
-		<p>
-            To make an online order, you can visit our 
-            order-in-advance site. You can follow the link here: 
-        </p>
-        <a href="https://d3h000003ytijeaq.my.salesforce-sites.com/order/SchedulingForm" target=”_blank” >Order-In-Advance</a>
-	</details>
-    <br>
-	<details>
-		<summary>What is Order-In-Advance vs Walk-In?</summary>
-		<p>
-            When you order in advance at the pantry, you can go on our website 
-            and pick out different produce items such as canned and dry goods. 
-            You can reserve a time to pick it up your order at the pantry.<br>
-            When the pantry is open, we take walk-ins where you can pick up 
-            items like fresh produce and personal products in person. A full 
-            list of our walk-in item can be found
-            <a href="https://google.com" target=”_blank” >here</a>
-	        . Check above for our open hours. 
-        </p>
-    </details>
-    <br>
-	<details>
-		<summary>Does the Pantry Accept Donations?</summary>
-		<p>
-            We accept donations in person. You can drop off your food items 
-            at the pantry during our open hours. The food items must be 
-            unopened and unused. We do not accept homemade goods. For a full 
-            list of our donation guidelines please go to the following 
-            <a href="https://google.com" target=”_blank” >link</a>
-            . Further information about donations may also be found there.<br>
-            Monetary Donation can be made at the following
-            <a href="https://give.ucdavis.edu/Donate/YourGift/322731" target=”_blank” >link</a>
-        </p>
-    </details>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar Example</title>
+	<style>
+		.navbar-nav > li:not(:last-child) > a {
+    		margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
+		}
 
+		#header {
+			background-color: white;
+			height: 107px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		#header div {
+			margin-left: auto;
+		}
+		#header div button:last-child {
+  			margin-right: 10px;
+		}
+
+        #picture {
+            height: 71px;
+            width: 71px;
+			position: absolute;
+			top: 23px;
+			left: 148px;
+
+        }
+        .ourPantry {
+            height: auto;
+            width: auto;
+            text-align: center;
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            width: 810px;
+            height: 65px;
+            left: 315px;
+            top: 342px;
+
+            /* Display Title/Bold */
+            font-family: 'Rubik';
+            font-style: bold;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 76px;
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+        .sentence {
+            /* context */
+            position: absolute;
+            width: 867px;
+            height: 52px;
+            left: 286px;
+            top: 442px;
+
+            /* Body/large */
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        .servicesButton {
+            background-color: #E37861;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+        }
+
+		.button {
+			background-color: #E37861;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			margin-left: 10px;
+		}
+		.navbar {
+			background-color: #5E7F64;
+			height: 50px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			padding: 0 20px;
+			position: fixed;
+			top: 107px;
+			left: 0;
+		}
+
+		.navbar .dropdown:not(:last-child) {
+			margin-right: 20px; 
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {
+			background-color: #f1f1f1;
+		}
+		.dropdown {
+			top: 23px;
+			left: 148px;
+			padding-left: 140px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<img src="pantry-icon-color.png" alt="Your Picture" id="picture">
+		<div>
+			<button class="button">Guest</button>
+			<button class="button">Login</button>
+		</div>
+	</div>
+	<div class="navbar">
+		<div class="dropdown">
+			<a href="#">About</a>
+			<div class="dropdown-content">
+				<a href="#">Our Team</a>
+				<a href="#">Our Story</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">Get Involved</a>
+			<div class="dropdown-content">
+				<a href="#">Volunteer</a>
+				<a href="#">Donate</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">Services</a>
+			<div class="dropdown-content">
+				<a href="#">Service 1</a>
+				<a href="#">Service 2</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<a href="#">Contact</a>
+			<div class="dropdown-content">
+				<a href="#">Email</a>
+				<a href="#">Phone</a>
+			</div>
+		</div>
+	</div>
+    <div class= "ourPantry">
+        <img src="bg.jpeg" alt="Pantry workers">
+        <div class= "centered">From Our Pantry To Yours</div>
+        <div class="sentence">No student, staff, or faculty has to miss a meal or live without basic necessities. Visit The Pantry for free groceries, food items, and toiletries.</div>
+        <button class="servicesButton">Services</button>
+    </div>
+	<!-- Rest of the page content -->
+</body>
 </html>
+
+
