@@ -1,0 +1,132 @@
+/* Navigation/Login */
+
+
+position: absolute;
+width: 1440px;
+height: 107px;
+left: 0px;
+top: 0px;
+
+
+
+/* Navigation/Tabs */
+
+
+position: absolute;
+width: 1440px;
+height: 67px;
+left: 0px;
+top: 107px;
+
+
+
+/* Rectangle 18 */
+
+
+position: absolute;
+width: 480px;
+height: 251.71px;
+left: 0px;
+top: 174px;
+
+background: url(.jpg), #D9D9D9;
+
+
+/* Rectangle 19 */
+
+
+position: absolute;
+width: 480px;
+height: 251.71px;
+left: 480px;
+top: 174px;
+
+background: url(.jpg);
+
+
+/* Rectangle 20 */
+
+
+position: absolute;
+width: 480px;
+height: 251.71px;
+left: 960px;
+top: 174px;
+
+background: url(.jpg), #D9D9D9;
+
+
+/* shadow */
+
+
+position: absolute;
+width: 1440px;
+height: 252px;
+left: 0px;
+top: 174px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3285) 0%, rgba(0, 0, 0, 0.45) 91.93%);
+
+
+/* heading */
+
+
+position: absolute;
+width: 315px;
+height: 60px;
+left: 562px;
+top: 263px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+
+/* heading */
+
+
+position: absolute;
+width: 315px;
+height: 60px;
+left: 154px;
+top: 524px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: -0.02em;
+
+/* grey text */
+
+color: #535353;
+
+
+
+/* The ASUCD Pantry is a student-run, student-led organization that provides food and other basic essentials to UC Davis students and staff who would like support in acquiring food and other basic necessities. To provide nutritious food for UC Davis students who are struggling to pay for meals. To provide UC Davis students with basic necessities such as toiletries, soap, toothbrushes, etc. in order to live a dignified life while working to obtain a UC Davis degree. It is becoming increasingly difficult for students to juggle the costs of living while working to obtain a university degree, and thus many students are finding themselves choosing between basic essentials such as food and hygiene products and the required costs of college. It is for this reason that The Pantry has been established to help offset these financial burdens and ensure that students may continue on to successfully complete and obtain their degrees from the University of California, Davis. */
+
+
+position: absolute;
+width: 748px;
+height: 316px;
+left: 542px;
+top: 518px;
+
+/* Body/Default */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+/* grey text */
+
+color: #535353;
