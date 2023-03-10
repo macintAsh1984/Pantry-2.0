@@ -1,0 +1,57 @@
+/*Website Fonts*/
+@font-face {
+    font-family: RubikMedium;
+    src: url(fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: RubikBold;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: RubikRegular;
+    src: url(fonts/Rubik-Regular.ttf);
+}
+
+body {
+    font-family: RubikRegular;
+  }
+
+  h2 {
+    margin-top: 10px;
+    color: #535353;
+    font-size: 24px;
+  }
+
+  h3 {
+    color: #535353;
+    font-size: 18px;
+  }
+
+  details {
+    margin-top: 1px;
+  }
+
+  summary {
+    color: #535353;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+    margin-left: 40%;
+  }
+
+  a {
+    color: #535353;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
