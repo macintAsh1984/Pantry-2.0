@@ -214,3 +214,33 @@
     background: rgba(0,0,0,0.0);
     border: none;
   }
+#largeRectangle {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: -1px;
+  top: 174px;
+}
+  #largeRectangle img {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: -1px;
+    top: 174px;
+  }
+  #largeRectangle h2 {
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 562px;
+    top: 263px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+  }
