@@ -3,11 +3,30 @@
 <head>
 	<title>Pantry 2.0</title>
 	<style>
+		@font-face {
+			font-family: RubikMedium;
+			src: url(fonts/Rubik-Medium.ttf);
+		}
+		@font-face {
+			font-family: RubikBold;
+			src: url(fonts/Rubik-Bold.ttf);
+		}
+		@font-face {
+			font-family: RubikRegular;
+			src: url(fonts/Rubik-Regular.ttf);
+		}
 		.navbar-nav > li:not(:last-child) > a {
     		margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
 		}
 		.navbar a {
   			color: white;
+			font-family: RubikMedium;
+			text-decoration: none;
+			transition: transform 0.2s;
+		}
+		.navbar a:hover{
+			color: yellow;
+			transform: scale(1.2);
 		}
 
 		#header { 
@@ -51,9 +70,7 @@
             top: 342px;
 
             /* Display Title/Bold */
-            font-family: 'Rubik';
-            font-style: bold;
-            font-weight: bold;
+            font-family: RubikBold;
             font-size: 64px;
             line-height: 76px;
 
@@ -68,9 +85,7 @@
             top: 442px;
 
             /* Body/large */
-            font-family: 'Rubik';
-            font-style: normal;
-            font-weight: 400;
+            font-family: RubikRegular;
             font-size: 22px;
             line-height: 26px;
             text-align: center;
@@ -87,8 +102,8 @@
 			height: 50px;
             border: none;
 			border-radius: 8px;
+			font-family: RubikMedium;
 			font-size: 16px;
-			font-weight: bold;
 			cursor: pointer;
         }
 
@@ -144,6 +159,8 @@
 			top: 23px;
 			left: 148px;
 			padding-left: 220px;
+			font-size: 20px;
+
 		}
 		
 		.cardsSection {
@@ -401,31 +418,25 @@
 	</div>
 	<div class="navbar">
 		<div class="dropdown">
-			<a href="#">About</a>
+			<a href="#" >About</a>
 			<div class="dropdown-content">
-				<a href="#">Our Team</a>
-				<a href="#">Our Story</a>
+				<a href="#">About Our Team</a>
 			</div>
 		</div>
 		<div class="dropdown">
 			<a href="#">Get Involved</a>
 			<div class="dropdown-content">
-				<a href="#">Volunteer</a>
 				<a href="#">Donate</a>
 			</div>
 		</div>
 		<div class="dropdown">
 			<a href="#">Services</a>
 			<div class="dropdown-content">
-				<a href="#">Service 1</a>
-				<a href="#">Service 2</a>
 			</div>
 		</div>
 		<div class="dropdown">
-			<a href="#">Contact</a>
+			<a href="#">Contact Us</a>
 			<div class="dropdown-content">
-				<a href="#">Email</a>
-				<a href="#">Phone</a>
 			</div>
 		</div>
 	</div>
