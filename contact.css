@@ -10,9 +10,19 @@
     font-family: RubikRegular;
     src: url(fonts/Rubik-Regular.ttf);
 }
+@font-face {
+    font-family: RubikLight;
+    src: url(fonts/Rubik-Light.ttf);
+}
+
 .navbar-nav > li:not(:last-child) > a {
     margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
 }
+
+html, body {
+    overflow-x: hidden;
+}
+
 .navbar a {
     color: white;
     font-family: RubikMedium;
@@ -120,9 +130,11 @@
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
+
 .dropdown {
     top: 23px;
     left: 148px;
@@ -130,3 +142,234 @@
     font-size: 20px;
 
 }
+
+#map {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 2000px;
+}
+
+#contactUsImg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 154px;
+}
+
+.contactUsTitle {
+    position: absolute;
+    width: 810px;
+    height: 65px;
+    left: 650px;
+    top: 230px;
+
+    font-family: RubikBold;
+    font-size: 40px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+
+}
+
+/*Get In Touch Section*/
+.line {
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 230px;
+    top: 500px;
+
+    /* Orange */
+    border: 3px solid #EEB467;
+}
+
+.getinTouch {
+    position: absolute;
+    font-family: RubikBold;
+    font-size: 40px;
+    color: #535353;
+    top: 531px;
+    left: 230px;
+
+}
+.locationIcon {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 610px;
+    left: 230px;
+}
+
+.address {
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    color: #535353;
+    top: 630px;
+    left: 300px;
+
+}
+
+.mailIcon {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 710px;
+    left: 230px;
+}
+
+.email a {
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    color: #535353;
+    top: 730px;
+    left: 300px;
+
+}
+
+.phoneIcon {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 800px;
+    left: 210px;
+}
+
+.phoneNumber {
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    line-height: 20px;
+    color: #535353;
+    top: 830px;
+    left: 300px;
+
+}
+
+/*Social Media Section*/
+.lineForSocials {
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 230px;
+    top: 1000px;
+
+    /* Orange */
+    border: 3px solid #EEB467;
+}
+
+.socialsTitle {
+    position: absolute;
+    font-family: RubikBold;
+    font-size: 40px;
+    color: #535353;
+    top: 1031px;
+    left: 230px;
+
+}
+
+.facebookLogo {
+    position: absolute;
+    top: 1105px;
+    left: 230px;
+}
+
+.facebook a {
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    line-height: 20px;
+    color: #535353;
+    top: 1130px;
+    left: 300px;
+}
+
+.instagramLogo {
+    position: absolute;
+    top: 1205px;
+    left: 230px;
+}
+
+
+.instagram a {
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    line-height: 20px;
+    color: #535353;
+    top: 1230px;
+    left: 300px;
+}
+
+/*Contact Us Form*/
+form {
+    position: absolute;
+    text-align: left;
+    height: 619px;
+    width: 558px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    padding: 20px;
+    top: 500px;
+    left: 800px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .formTitle {
+    font-family: RubikBold;
+    color: #535353;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+    left: 880px;
+    top: 600px;
+    margin-left: 5%;
+    margin-top: 1%;
+
+  }
+
+  label {
+    font-family: RubikRegular;
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  input[type="submit"] {
+    position: absolute;
+    background-color: #E37861;
+    font-family: RubikMedium;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5%;
+    top: 570px;
+    left: 390px;
+    
+  }
+
+  input[type="submit"]:hover {
+    background-color: #E37861;
+    text-decoration: underline;
+  }
