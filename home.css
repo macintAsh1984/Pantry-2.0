@@ -1,3 +1,4 @@
+/*Website Fonts*/
 @font-face {
     font-family: RubikMedium;
     src: url(fonts/Rubik-Medium.ttf);
@@ -10,20 +11,8 @@
     font-family: RubikRegular;
     src: url(fonts/Rubik-Regular.ttf);
 }
-.navbar-nav > li:not(:last-child) > a {
-    margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
-}
-.navbar a {
-      color: white;
-    font-family: RubikMedium;
-    transition: transform 0.2s;
-    text-decoration: none;
-}
-.navbar a:hover{
-    text-decoration: underline;
-    transform: scale(1.1);
-}
 
+/*White Header on Home Page*/
 #header { 
     background-color: white;
     z-index: 100;
@@ -36,9 +25,11 @@
     top: 0;
     left: 0;
 }
+
 #header div {
     margin-left: auto;
 }
+
 #header div button:last-child {
       margin-right: 10px;
 }
@@ -51,6 +42,102 @@
     left: 148px;
 
 }
+
+/*Buttons on Header*/
+.navbar-nav > li:not(:last-child) > a {
+    margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
+}
+
+.guestButton {
+    background-color: #E37861;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: RubikMedium;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translate(600%, 0%);
+}
+
+.loginButton {
+    background-color: #E37861;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: RubikMedium;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translate(-150%, 0%);
+}
+
+/*Navigation Bar*/
+.navbar {
+    background-color: #5E7F64;
+    z-index: 100;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    position: fixed;
+    top: 107px;
+    left: 0;
+}
+
+.navbar a {
+    color: white;
+    font-family: RubikMedium;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/*Navbar Drop-Downs*/
+.navbar .dropdown:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown {
+    top: 23px;
+    left: 148px;
+    padding-left: 220px;
+    font-size: 20px;
+
+}
+
+
+/*From Our Pantry To Yours*/
 .ourPantry {
     height: auto;
     width: auto;
@@ -58,21 +145,20 @@
     color: white;
 }
 
-.centered {
+.ourPantryTitle {
     position: absolute;
     width: 810px;
     height: 65px;
     left: 350px;
     top: 342px;
 
-    /* Display Title/Bold */
     font-family: RubikBold;
     font-size: 64px;
     line-height: 76px;
 
     color: #FFFFFF;
 }
-.sentence {
+.ourPantrySummary {
     /* context */
     position: absolute;
     width: 867px;
@@ -103,75 +189,7 @@
     cursor: pointer;
 }
 
-.button {
-    background-color: #E37861;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-family: RubikMedium;
-    font-size: 16px;
-    cursor: pointer;
-    transform: translate(600%, 0%);
-}
-
-.loginButton {
-    background-color: #E37861;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-family: RubikMedium;
-    font-size: 16px;
-    cursor: pointer;
-    transform: translate(-150%, 0%);
-}
-.navbar {
-    background-color: #5E7F64;
-    z-index: 100;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0 20px;
-    position: fixed;
-    top: 107px;
-    left: 0;
-}
-
-.navbar .dropdown:not(:last-child) {
-    margin-right: 20px; 
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-.dropdown {
-    top: 23px;
-    left: 148px;
-    padding-left: 220px;
-    font-size: 20px;
-
-}
-
+/*Info Cards*/
 .cardsSection {
     height: 430px;
     width: auto;
@@ -200,7 +218,6 @@
 }
 
 .hoursTitle {
-    /* Hours */
     position: absolute;
     width: 62px;
     height: 26px;
@@ -221,7 +238,6 @@
     left: 230px;
     top: 1215px;
 
-    /* Body/Small */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
@@ -229,7 +245,6 @@
     line-height: 14px;
     text-align: center;
 
-    /* grey text */
     color: #535353;
 }
 
@@ -254,22 +269,18 @@
 }
 
 .servicesTitle {
-    /* Services */
     position: absolute;
     width: 62px;
     height: 26px;
     left: 568px;
     top: 1175px;
 
-    /* Body/large */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
 
-    /* grey text */
     color: #535353;
 }
 
@@ -280,7 +291,6 @@
     left: 530px;
     top: 1215px;
 
-    /* Body/Small */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
@@ -288,7 +298,6 @@
     line-height: 14px;
     text-align: center;
 
-    /* grey text */
     color: #535353;
 }
 
@@ -313,22 +322,18 @@
 }
 
 .contactTitle {
-    /* Services */
     position: absolute;
     width: 62px;
     height: 26px;
     left: 870px;
     top: 1175px;
 
-    /* Body/large */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
-
-    /* grey text */
+  
     color: #535353;
 }
 
@@ -339,7 +344,6 @@
     left: 830px;
     top: 1215px;
 
-    /* Body/Small */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
@@ -347,7 +351,6 @@
     line-height: 14px;
     text-align: center;
 
-    /* grey text */
     color: #535353;
 }
 
@@ -372,22 +375,18 @@
 }
 
 .goalsTitle {
-    /* Services */
     position: absolute;
     width: 62px;
     height: 26px;
     left: 1182px;
     top: 1175px;
 
-    /* Body/large */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
-
-    /* grey text */
+  
     color: #535353;
 }
 
@@ -398,7 +397,6 @@
     left: 1130px;
     top: 1215px;
 
-    /* Body/Small */
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
@@ -406,13 +404,24 @@
     line-height: 14px;
     text-align: center;
 
-    /* grey text */
     color: #535353;
+}
+
+/*FAQ Section*/
+.line {
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 230px;
+    top: 1500px;
+
+    /* Orange */
+    border: 3px solid #EEB467;
 }
 
 .FAQ {
     position: absolute;
-    font-family: RubikMedium;
+    font-family: RubikBold;
     font-size: 40px;
     color: #535353;
     top: 1531px;
