@@ -10,15 +10,18 @@
     font-family: RubikRegular;
     src: url(fonts/Rubik-Regular.ttf);
 }
+
 .navbar-nav > li:not(:last-child) > a {
     margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
 }
+
 .navbar a {
-      color: white;
+    color: white;
     font-family: RubikMedium;
     transition: transform 0.2s;
     text-decoration: none;
 }
+
 .navbar a:hover{
     text-decoration: underline;
     transform: scale(1.1);
@@ -36,6 +39,7 @@
     top: 0;
     left: 0;
 }
+
 #header div {
     margin-left: auto;
 }
@@ -45,23 +49,27 @@
 }
 
 #picture {
-height: 71px;
-width: 71px;
-position: absolute;
-top: 23px;
-left: 148px;
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 23px;
+    left: 148px;
 }
 
-.button {
-    background-color: #E37861;
-    color: white;
+.guestButton {
+    background-color: white;
+    color: #E37861;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #E37861; 
     border-radius: 5px;
     font-family: RubikMedium;
     font-size: 16px;
     cursor: pointer;
-    transform: translate(600%, 0%);
+    transform: translate(575%, 0%);
+}
+
+.guestButton:hover{
+    text-decoration: underline;
 }
 
 .loginButton {
@@ -75,6 +83,11 @@ left: 148px;
     cursor: pointer;
     transform: translate(-150%, 0%);
 }
+
+.loginButton:hover{
+    text-decoration: underline;
+}
+
 .navbar {
     background-color: #5E7F64;
     z-index: 100;
@@ -101,18 +114,22 @@ left: 148px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
+
 .dropdown {
     top: 23px;
     left: 148px;
