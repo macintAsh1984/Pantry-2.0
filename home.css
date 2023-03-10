@@ -12,6 +12,9 @@
     src: url(fonts/Rubik-Regular.ttf);
 }
 
+body { 
+    overflow-x: hidden;
+} 
 /*White Header on Home Page*/
 #header { 
     background-color: white;
@@ -60,6 +63,10 @@
     transform: translate(575%, 0%);
 }
 
+.guestButton:hover{
+    text-decoration: underline;
+}
+
 .loginButton {
     background-color: #E37861;
     color: white;
@@ -70,6 +77,10 @@
     font-size: 16px;
     cursor: pointer;
     transform: translate(-150%, 0%);
+}
+
+.loginButton:hover{
+    text-decoration: underline;
 }
 
 /*Navigation Bar*/
@@ -187,6 +198,10 @@
     font-family: RubikMedium;
     font-size: 16px;
     cursor: pointer;
+}
+
+.servicesButton:hover{
+    text-decoration: underline;
 }
 
 /*Info Cards*/
