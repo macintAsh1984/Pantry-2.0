@@ -1,0 +1,431 @@
+@font-face {
+    font-family: RubikMedium;
+    src: url(fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: RubikBold;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: RubikRegular;
+    src: url(fonts/Rubik-Regular.ttf);
+}
+.navbar-nav > li:not(:last-child) > a {
+    margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
+}
+.navbar a {
+      color: white;
+    font-family: RubikMedium;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+#header { 
+    background-color: white;
+    z-index: 100;
+    height: 107px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#header div {
+    margin-left: auto;
+}
+#header div button:last-child {
+      margin-right: 10px;
+}
+
+#picture {
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 23px;
+    left: 148px;
+
+}
+.ourPantry {
+    height: auto;
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    width: 810px;
+    height: 65px;
+    left: 350px;
+    top: 342px;
+
+    /* Display Title/Bold */
+    font-family: RubikBold;
+    font-size: 64px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+}
+.sentence {
+    /* context */
+    position: absolute;
+    width: 867px;
+    height: 52px;
+    left: 320px;
+    top: 442px;
+
+    /* Body/large */
+    font-family: RubikRegular;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ourPantry .servicesButton {
+    position: absolute;
+    transform: translate(-50%, -880%);
+    background-color: #E37861;
+    color: white;
+    width: 167px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-family: RubikMedium;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #E37861;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: RubikMedium;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translate(600%, 0%);
+}
+
+.loginButton {
+    background-color: #E37861;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: RubikMedium;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translate(-150%, 0%);
+}
+.navbar {
+    background-color: #5E7F64;
+    z-index: 100;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    position: fixed;
+    top: 107px;
+    left: 0;
+}
+
+.navbar .dropdown:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown {
+    top: 23px;
+    left: 148px;
+    padding-left: 220px;
+    font-size: 20px;
+
+}
+
+.cardsSection {
+    height: 430px;
+    width: auto;
+    background-color: #F4E8D0;
+    opacity: 0.5;
+}
+
+.hours {
+    position: absolute;
+    top: 1030px;
+    left: 175px;
+    border-radius: 25px;
+    height: 285px;
+    width: 271px;
+    
+    background-color: white;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hoursIcon {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 255px;
+    top: 1070px;
+}
+
+.hoursTitle {
+    /* Hours */
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 282px;
+    top: 1175px;
+
+    font-family: RubikRegular;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #535353;
+}
+
+.hoursInfo {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 230px;
+    top: 1215px;
+
+    /* Body/Small */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+    color: #535353;
+}
+
+.services {
+    position: absolute;
+    top: 1030px;
+    left: 475px;
+    border-radius: 25px;
+    height: 285px;
+    width: 271px;
+    
+    background-color: white;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.servicesIcon {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 570px;
+    top: 1070px;
+}
+
+.servicesTitle {
+    /* Services */
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 568px;
+    top: 1175px;
+
+    /* Body/large */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    /* grey text */
+    color: #535353;
+}
+
+.servicesInfo {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 530px;
+    top: 1215px;
+
+    /* Body/Small */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+    color: #535353;
+}
+
+.contact {
+    position: absolute;
+    top: 1030px;
+    left: 775px;
+    border-radius: 25px;
+    height: 285px;
+    width: 271px;
+    
+    background-color: white;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contactIcon {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 863px;
+    top: 1073px;
+}
+
+.contactTitle {
+    /* Services */
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 870px;
+    top: 1175px;
+
+    /* Body/large */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    /* grey text */
+    color: #535353;
+}
+
+.contactInfo {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 830px;
+    top: 1215px;
+
+    /* Body/Small */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+    color: #535353;
+}
+
+.goals {
+    position: absolute;
+    top: 1030px;
+    left: 1075px;
+    border-radius: 25px;
+    height: 285px;
+    width: 271px;
+    
+    background-color: white;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.goalsIcon {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 1157px;
+    top: 1073px;
+}
+
+.goalsTitle {
+    /* Services */
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 1182px;
+    top: 1175px;
+
+    /* Body/large */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    /* grey text */
+    color: #535353;
+}
+
+.goalsInfo {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 1130px;
+    top: 1215px;
+
+    /* Body/Small */
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+    color: #535353;
+}
+
+.FAQ {
+    position: absolute;
+    font-family: RubikMedium;
+    font-size: 40px;
+    color: #535353;
+    top: 1531px;
+    left: 230px;
+
+}
+
+.FAQDescription{
+    position: absolute;
+    font-family: RubikRegular;
+    font-size: 17px;
+    color: #535353;
+    top: 1591px;
+    left: 230px;
+    
+}
