@@ -49,15 +49,15 @@
 }
 
 .guestButton {
-    background-color: #E37861;
-    color: white;
+    background-color: white;
+    color: #E37861;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #E37861; 
     border-radius: 5px;
     font-family: RubikMedium;
     font-size: 16px;
     cursor: pointer;
-    transform: translate(600%, 0%);
+    transform: translate(575%, 0%);
 }
 
 .loginButton {
