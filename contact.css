@@ -10,10 +10,6 @@
     font-family: RubikRegular;
     src: url(fonts/Rubik-Regular.ttf);
 }
-@font-face {
-    font-family: RubikLight;
-    src: url(fonts/Rubik-Light.ttf);
-}
 
 .navbar-nav > li:not(:last-child) > a {
     margin-right: 10px; /* Adjust this value to reduce or increase the space between the buttons */
@@ -179,7 +175,7 @@ html, body {
     position: absolute;
     width: 116px;
     height: 0px;
-    left: 230px;
+    left: 150px;
     top: 500px;
 
     /* Orange */
@@ -192,7 +188,7 @@ html, body {
     font-size: 40px;
     color: #535353;
     top: 531px;
-    left: 230px;
+    left: 150px;
 
 }
 .locationIcon {
@@ -200,7 +196,7 @@ html, body {
     width: auto;
     height: auto;
     top: 610px;
-    left: 230px;
+    left: 150px;
 }
 
 .address {
@@ -209,7 +205,7 @@ html, body {
     font-size: 17px;
     color: #535353;
     top: 630px;
-    left: 300px;
+    left: 240px;
 
 }
 
@@ -218,7 +214,7 @@ html, body {
     width: auto;
     height: auto;
     top: 710px;
-    left: 230px;
+    left: 150px;
 }
 
 .email a {
@@ -227,7 +223,7 @@ html, body {
     font-size: 17px;
     color: #535353;
     top: 730px;
-    left: 300px;
+    left: 240px;
 
 }
 
@@ -236,7 +232,7 @@ html, body {
     width: auto;
     height: auto;
     top: 800px;
-    left: 210px;
+    left: 130px;
 }
 
 .phoneNumber {
@@ -246,7 +242,7 @@ html, body {
     line-height: 20px;
     color: #535353;
     top: 830px;
-    left: 300px;
+    left: 240px;
 
 }
 
@@ -255,7 +251,7 @@ html, body {
     position: absolute;
     width: 116px;
     height: 0px;
-    left: 230px;
+    left: 150px;
     top: 1000px;
 
     /* Orange */
@@ -268,14 +264,14 @@ html, body {
     font-size: 40px;
     color: #535353;
     top: 1031px;
-    left: 230px;
+    left: 150px;
 
 }
 
 .facebookLogo {
     position: absolute;
     top: 1105px;
-    left: 230px;
+    left: 150px;
 }
 
 .facebook a {
@@ -285,13 +281,13 @@ html, body {
     line-height: 20px;
     color: #535353;
     top: 1130px;
-    left: 300px;
+    left: 240px;
 }
 
 .instagramLogo {
     position: absolute;
     top: 1205px;
-    left: 230px;
+    left: 150px;
 }
 
 
@@ -302,7 +298,7 @@ html, body {
     line-height: 20px;
     color: #535353;
     top: 1230px;
-    left: 300px;
+    left: 240px;
 }
 
 /*Contact Us Form*/
