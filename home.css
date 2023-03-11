@@ -455,3 +455,96 @@ body {
     left: 230px;
     
 }
+
+h2 {
+    margin-top: 50px;
+    color: #535353;
+    font-size: 24px;
+  }
+
+  h3 {
+    color: #535353;
+    font-size: 18px;
+  }
+
+  details {
+    margin-top: 30px;
+    font-family: RubikRegular;
+    
+  }
+
+  summary {
+    color: #535353;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+  }
+  summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+  }
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  
+  details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+    margin-left: 40%;
+  }
+  .content {
+    margin: 10px 0;
+    font-size: 16px;
+    margin-left: 40%;
+    border-top: none;
+    padding: 10px;
+    border-top: none;
+  }
+  details[open] summary ~ * {
+    margin: 10px 0;
+    font-size: 16px;
+    margin-left: 40%;
+    animation: sweep 2s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; margin-left: 650px}
+    100%  {opacity: 1; margin-right: 0px}
+  }
+  
+  p:last-child {
+    padding: 0;
+  }
+  
+
+  a {
+    color: #535353;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
