@@ -137,3 +137,180 @@
     font-size: 20px;
 
 }
+#largeRectangle {
+    position: absolute;
+    width: 1440px;
+    height: 252px;
+    left: -1px;
+    top: 74px;
+  }
+    #largeRectangle img {
+      position: absolute;
+      width: 1440px;
+      height: 252px;
+      left: -1px;
+      top: 74px;
+    }
+    #largeRectangle h2 {
+      position: absolute;
+      width: 315px;
+      height: 60px;
+      left: 562px;
+      top: 140px;
+  
+      font-family: RubikMedium;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 47px;
+      letter-spacing: -0.02em;
+  
+      color: #FFFFFF;
+    }
+#orangeRec1 hr{
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 154px;
+    top: 506px;
+
+    /* Orange */
+
+    border: 5px solid #EEB467;
+}
+#mission h2{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 154px;
+    top: 524px;
+
+    font-family: RubikMedium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+
+    /* grey text */
+
+    color: #535353;
+
+}
+#mission p{
+    position: absolute;
+    width: 748px;
+    height: 316px;
+    left: 542px;
+    top: 518px;
+
+    /* Body/Default */
+
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    /* grey text */
+
+    color: #535353;
+
+}
+#orangeRec2 hr{
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 154px;
+    top: 666px;
+
+    /* Orange */
+
+    border: 5px solid #EEB467;
+}
+#accomp h2{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 154px;
+    top: 684px;
+
+    font-family: RubikMedium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+
+    /* grey text */
+
+    color: #535353;
+}
+#accomp p{
+    position: absolute;
+    width: 762px;
+    height: 298px;
+    left: 542px;
+    top: 668px;
+    
+    /* Body/Default */
+    
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    
+    /* grey text */
+    
+    color: #535353;
+}
+#orangeRec3 hr{
+    position: absolute;
+    width: 116px;
+    height: 0px;
+    left: 154px;
+    top: 1017px;
+
+    /* Orange */
+
+    border: 5px solid #EEB467;
+}
+#stats h2{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 154px;
+    top: 1035px;
+
+    font-family: RubikMedium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+
+    /* grey text */
+
+    color: #535353;
+
+}
+#stats p{
+    position: absolute;
+    width: 748px;
+    height: 66px;
+    left: 542px;
+    top: 1030px;
+
+    /* Body/Default */
+
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    /* grey text */
+
+    color: #535353;
+}
