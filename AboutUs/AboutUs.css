@@ -301,6 +301,8 @@
     height: 66px;
     left: 542px;
     top: 1030px;
+    /* i want to add white space at the bottom of this*/
+
 
     /* Body/Default */
 
@@ -313,4 +315,13 @@
     /* grey text */
 
     color: #535353;
+}
+/* #whitebox {
+    height: 430px;
+    width: auto;
+    background-color: black;
+    top: 500px;
+} */
+b {
+    font-weight: 700;
 }
