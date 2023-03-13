@@ -218,12 +218,9 @@ body {
     position: absolute;
     width: 557px;
     height: 214px;
-    left: 150px;
-    top: 626px;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 20px;
     box-sizing: border-box;
-    position: relative;
   }
   
   .card p {
@@ -244,18 +241,25 @@ body {
     height: 50px;
     background: #5E7F64;
     border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
-
-    font-family: RubikRegular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 133% */
-
-
-    color: #FFFFFF;
-
   }
+  
+  .button-2 {
+    bottom: 20px;
+  }
+  
+  .card-1 {
+    left: 150px;
+    top: 626px;
+  }
+  
+  .card-2 {
+    left: 731px;
+    top: 626px;
+  }
+  
   
