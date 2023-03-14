@@ -247,11 +247,18 @@ body {
     border: none;
     cursor: pointer;
   }
+
+  .card-button:hover {
+    text-decoration: underline;
+  }
   
   .button-2 {
     bottom: 20px;
   }
   
+  .button-2:hover {
+    text-decoration: underline;
+  }
   .card-1 {
     left: 150px;
     top: 626px;

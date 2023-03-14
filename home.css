@@ -186,11 +186,11 @@ body {
     color: #FFFFFF;
 }
 
-.ourPantry .servicesButton {
+.ourPantry .aboutUsButton {
     position: absolute;
     background-color: #E37861;
     color: white;
-    width: 167px;
+    width: 200px;
     height: 50px;
     border: none;
     border-radius: 8px;
@@ -199,10 +199,10 @@ body {
     cursor: pointer;
 
     top: 542px;
-    left: 700px;
+    left: 670px;
 }
 
-.servicesButton:hover{
+.aboutUsButton:hover{
     text-decoration: underline;
 }
 
@@ -528,11 +528,6 @@ h2 {
     font-size: 16px;
     margin-left: 40%;
     animation: sweep 2s ease-in-out;
-  }
-  
-  @keyframes sweep {
-    0%    {opacity: 0; margin-left: 650px}
-    100%  {opacity: 1; margin-right: 0px}
   }
   
   p:last-child {
