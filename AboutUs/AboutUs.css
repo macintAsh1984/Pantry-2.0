@@ -295,33 +295,90 @@
     color: #535353;
 
 }
-#stats p{
-    position: absolute;
-    width: 748px;
-    height: 66px;
-    left: 542px;
-    top: 1030px;
-    /* i want to add white space at the bottom of this*/
+.first-p {
+	position: absolute;
+    width: 133px;
+    height: 56px;
+    left: 599px;
+    top: 1212px;
 
-
-    /* Body/Default */
+    /* Body/Small */
 
     font-family: RubikRegular;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
 
     /* grey text */
 
-    color: #535353;
+    color: #4E4B4B;
 }
-/* #whitebox {
-    height: 430px;
-    width: auto;
-    background-color: black;
-    top: 500px;
-} */
-b {
-    font-weight: 700;
+
+.second-p {
+	position: absolute;
+    width: 183px;
+    height: 32px;
+    left: 850px;
+    top: 1212px;
+
+    /* Body/Small */
+
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+
+    color: #4E4B4B;
+
+}
+
+.third-p {
+	position: absolute;
+    width: 123px;
+    height: 43px;
+    left: 1168px;
+    top: 1212px;
+
+    /* Body/Small */
+
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* grey text */
+
+    color: #4E4B4B;
+
+}
+.food-icon {
+    position: absolute;
+    width: 89px;
+    height: 119px;
+    left: 626px;
+    top: 1083px;
+  }
+  
+.apple-icon {
+    position: absolute;
+    width: 185px;
+    height: 132px;
+    left: 849px;
+    top: 1070px;
+}
+
+.people-icon {
+    position: absolute;
+    width: 107px;
+    height: 115px;
+    left: 1170px;
+    top: 1087px;
 }
